@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.1
+
+- O livro de exemplo virou um guia completo em sete capítulos, o mesmo do Ebookfy 0.5.1, com figuras da própria edição e textos editoriais reescritos.
+- O README mostra o que cada capítulo ensina e aponta para o PDF, o EPUB e o MOBI compilados no repositório do Ebookfy.
+
 ## 0.3.0
 
 - Instala as 15 skills reescritas do Ebookfy 0.5.0, com procedimento, regras do compilador, problemas frequentes, checklist ampliada e 26 referências com modelos preenchidos.

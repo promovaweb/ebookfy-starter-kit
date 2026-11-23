@@ -2,7 +2,7 @@
 
 # Ebookfy Starter Kit
 
-Use este repositório privado como ponto de partida para o seu livro. Ele traz a ficha, um livro de exemplo com três capítulos, os textos editoriais e as 15 skills do [Ebookfy](https://github.com/promovaweb/ebookfy) instaladas para o seu agente.
+Use este repositório privado como ponto de partida para o seu livro. Ele traz a ficha, um livro de exemplo com sete capítulos, os textos editoriais e as 15 skills do [Ebookfy](https://github.com/promovaweb/ebookfy) instaladas para o seu agente.
 
 ## Primeiro uso
 
@@ -19,11 +19,17 @@ O `doctor` confere os conversores e avisa quais formatos ficam indisponíveis qu
 
 ## O livro de exemplo
 
-**Meu primeiro ebook** mostra em uso tudo o que entra numa edição:
+**Meu primeiro ebook** é um guia curto de produção que usa no próprio texto cada recurso que explica. Para ver como fica a edição compilada, com capa, sumário, figuras, notas e créditos, abra o [PDF](https://github.com/promovaweb/ebookfy/blob/main/ebook/primeiro-ebook-v0.1.0.pdf), o [EPUB](https://github.com/promovaweb/ebookfy/blob/main/ebook/primeiro-ebook-v0.1.0.epub) ou o [MOBI](https://github.com/promovaweb/ebookfy/blob/main/ebook/primeiro-ebook-v0.1.0.mobi) no repositório do Ebookfy.
 
-- [Preparar a primeira edição](capitulos/01-primeiro-capitulo/CHAPTER.md): a ficha, uma figura com legenda e a tabela de onde cada coisa fica;
-- [Escrever um capítulo](capitulos/02-escrever-um-capitulo/CHAPTER.md): listas, citação, código, nota de rodapé e links entre capítulos;
-- [Compilar e conferir](capitulos/03-compilar-e-conferir/CHAPTER.md): a compilação e o que conferir nos arquivos gerados.
+| Capítulo | O que mostra |
+| --- | --- |
+| [Preparar a primeira edição](capitulos/01-primeiro-capitulo/CHAPTER.md) | A ficha, uma figura com legenda e a tabela de onde cada coisa fica. |
+| [Planejar o livro](capitulos/02-planejar-o-livro/CHAPTER.md) | Briefing, apuração e sumário em `notas/`, com citação em bloco. |
+| [Escrever um capítulo](capitulos/03-escrever-um-capitulo/CHAPTER.md) | Listas, código com realce, nota de rodapé e links entre capítulos. |
+| [Imagens e capa](capitulos/04-imagens-e-capa/CHAPTER.md) | Figuras, formatos de imagem e as duas capas da edição. |
+| [Prefácio, créditos e autoria](capitulos/05-abertura-e-fechamento/CHAPTER.md) | Os textos editoriais que abrem e fecham o livro. |
+| [Compilar e conferir](capitulos/06-compilar-e-conferir/CHAPTER.md) | Conversores, mensagens de erro e a lista de conferência. |
+| [Revisar e distribuir](capitulos/07-revisar-e-distribuir/CHAPTER.md) | Passadas de revisão, versão e entrega dos arquivos conferidos. |
 
 Troque o texto pelo seu. Para acrescentar um capítulo, crie a pasta com `CHAPTER.md` e `imagens/` e acrescente uma tabela `[[chapters]]` na posição de leitura. Execute `ebookfy` para conferir o sumário na TUI.
 

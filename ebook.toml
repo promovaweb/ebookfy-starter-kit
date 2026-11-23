@@ -1,6 +1,6 @@
 [book]
 title = "Meu primeiro ebook"
-description = "Um projeto editável para montar e exportar a primeira edição."
+description = "Um guia curto para montar, compilar e distribuir um ebook."
 language = "pt-BR"
 authors = ["Promovaweb"]
 publisher = "Promovaweb"
@@ -25,7 +25,19 @@ formats = ["pdf", "epub", "mobi"]
 file = "capitulos/01-primeiro-capitulo/CHAPTER.md"
 
 [[chapters]]
-file = "capitulos/02-escrever-um-capitulo/CHAPTER.md"
+file = "capitulos/02-planejar-o-livro/CHAPTER.md"
 
 [[chapters]]
-file = "capitulos/03-compilar-e-conferir/CHAPTER.md"
+file = "capitulos/03-escrever-um-capitulo/CHAPTER.md"
+
+[[chapters]]
+file = "capitulos/04-imagens-e-capa/CHAPTER.md"
+
+[[chapters]]
+file = "capitulos/05-abertura-e-fechamento/CHAPTER.md"
+
+[[chapters]]
+file = "capitulos/06-compilar-e-conferir/CHAPTER.md"
+
+[[chapters]]
+file = "capitulos/07-revisar-e-distribuir/CHAPTER.md"

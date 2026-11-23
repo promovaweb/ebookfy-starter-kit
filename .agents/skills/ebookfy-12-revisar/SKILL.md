@@ -1,12 +1,22 @@
 ---
 name: ebookfy-12-revisar
-description: Revisar o manuscrito no projeto Ebookfy a partir do ebook.toml, com instruções de execução e conferência da edição na pasta do livro.
+description: Revisa a edição por leitura integral e reprodução dos exemplos. Use para diagnosticar passagens, corrigir referências e conferir as correções antes da prova final.
 ---
 
 # Revisar o manuscrito
 
-Leia o ebook.toml na raiz e preserve o trabalho existente.
+Reconstrua a ordem a partir de ebook.toml. Leia prefácio, capítulos, créditos e autoria como um leitor contínuo. Em uma revisão parcial, declare quais arquivos foram lidos e quais ainda precisam de leitura. Marque saltos de raciocínio, termos introduzidos tarde, exemplos impossíveis de reproduzir e afirmações sem fonte.
 
-Leia o prefácio, cada capítulo na ordem configurada, créditos e autoria. Execute os exemplos, confirme referências e confira se cada capítulo entrega o que anuncia.
+Para cada achado, anote arquivo, trecho curto, efeito para o leitor e correção proposta. Faça uma passagem separada pelos caminhos das figuras, títulos, links e atribuições. Se o pedido for diagnóstico, entregue as observações. Se incluir correção, edite as passagens e repita a tarefa que revelou o problema.
 
-Registre por arquivo a passagem examinada, a correção necessária e a conferência posterior. Abra a TUI para revisar título, edição e sequência.
+Diferencie o que foi lido do que foi executado. Uma compilação bem-sucedida confirma o processamento dos arquivos; a revisão do texto precisa registrar a leitura e o resultado dos exemplos.
+
+## Referência de trabalho
+
+Consulte [Registro de revisão por passagem](references/registro-de-revisao.md) para registrar e reexaminar um achado concreto.
+
+## Checklist da entrega
+
+- [ ] Cada achado permite localizar a passagem e entender o efeito no leitor.
+- [ ] Os exemplos testados registram entrada e resultado observado.
+- [ ] Correções reabertas e pendências aparecem identificadas ao entregar a revisão.

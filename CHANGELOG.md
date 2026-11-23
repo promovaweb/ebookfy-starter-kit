@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0
+
+- Instala as 15 skills reescritas do Ebookfy 0.5.0, com procedimento, regras do compilador, problemas frequentes, checklist ampliada e 26 referências com modelos preenchidos.
+- O livro de exemplo ganhou três capítulos que mostram figura com legenda, tabela, código, nota de rodapé, links entre capítulos e a conferência da edição.
+- A pasta `notas/` explica onde cada etapa grava seus registros. A pasta `capitulos/` traz uma configuração do markdownlint que aceita links entre capítulos por âncora.
+
 ## 0.2.0
 
 - Instala as 15 skills editoriais com referências locais, exemplos resolvidos e checklists. A documentação orienta a edição da ficha, dos capítulos e das configurações pessoais.

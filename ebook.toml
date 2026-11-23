@@ -23,3 +23,9 @@ formats = ["pdf", "epub", "mobi"]
 
 [[chapters]]
 file = "capitulos/01-primeiro-capitulo/CHAPTER.md"
+
+[[chapters]]
+file = "capitulos/02-escrever-um-capitulo/CHAPTER.md"
+
+[[chapters]]
+file = "capitulos/03-compilar-e-conferir/CHAPTER.md"

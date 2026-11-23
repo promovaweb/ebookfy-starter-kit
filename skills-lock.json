@@ -5,91 +5,91 @@
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-01-organizar/SKILL.md",
-      "computedHash": "02dff83fb636dadcee87cd8cd057c5961babc535bfecc630fb79d7413f79eca4"
+      "computedHash": "2982e66846e4eff9600352bf4883ad241ffdde7ea6306379c69a8dd3aff17e8b"
     },
     "ebookfy-02-pesquisar": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-02-pesquisar/SKILL.md",
-      "computedHash": "b7fc364ae19ffd28b606c43b260a1211d5dc79ed7d10a75b2150527fa2e91a38"
+      "computedHash": "a269615c4150d01b3bd627321fd3bcf6d53f2f19c56c38bee2d0fdeb1228188f"
     },
     "ebookfy-03-planejar": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-03-planejar/SKILL.md",
-      "computedHash": "dd1799378112619b57b815ebc7f46ebf219b278abde49afe98adc6a3dbf91029"
+      "computedHash": "34d6813265dbc89468f16c535eacd2d73aa0c46c2f339f40afb24b67d3827356"
     },
     "ebookfy-04-capitulos": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-04-capitulos/SKILL.md",
-      "computedHash": "b75a62d10f1e59af8824e08c462340c603c9a3144893efef0013aa13e00e5b64"
+      "computedHash": "547076cf3b659592b7948f08f6b8f5c816db24c0dd7ee381b83ec28660becedd"
     },
     "ebookfy-05-imagens": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-05-imagens/SKILL.md",
-      "computedHash": "c80f5de5afac3410c0a6844321f7edc735b3f9f6be3ed7f38605d67fb893a848"
+      "computedHash": "0dbf5d12fd41947476e4f8e3855a0faccce2399c264a6159a191edce0dcf2df9"
     },
     "ebookfy-06-capa": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-06-capa/SKILL.md",
-      "computedHash": "e20890b3138d7c161eab3d2a15a7006e5622bd528678edf746a76232a65afafb"
+      "computedHash": "6bb1c142eec50eb80f6f81b17d17904346bcedca632f39c4ef860aaf9202ea6a"
     },
     "ebookfy-07-introducao": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-07-introducao/SKILL.md",
-      "computedHash": "1231592e35267dde72d2c5a0978b4fce036f556b1d2ea31b4ee098df7f922d33"
+      "computedHash": "f44bbb6deb1255f628efbe2db91a338c8d0ccfcd44c8269ce48f2da5e41ef160"
     },
     "ebookfy-08-prefacio": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-08-prefacio/SKILL.md",
-      "computedHash": "cd965dfedc501c209f7b5f20cb0df4d9492f907e696344f7ce6b139f9ee4ef77"
+      "computedHash": "fa1ec32bc32d4c65a34486e4dac201abcac9714fd31d732e2de20d52d5edf4f2"
     },
     "ebookfy-09-creditos": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-09-creditos/SKILL.md",
-      "computedHash": "0acc1cc86587e5de521d8082856ce91f03b254673961a2be9dac7d9eee7b36aa"
+      "computedHash": "888390d2a798c09f55b148ed37c5f8ee549389f634a3bf2fb252a6ded186ba0d"
     },
     "ebookfy-10-autor": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-10-autor/SKILL.md",
-      "computedHash": "3d88624b383d9927181ac4957926c61585c7b306acf8c40d2e27b56931001ac4"
+      "computedHash": "47fd779068a76aec680b9905d237467e4be8c9721864d8931ceffee8c15e2525"
     },
     "ebookfy-11-conclusao": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-11-conclusao/SKILL.md",
-      "computedHash": "825d5bfbd79a73790937af1e748183a0a1af8601d5b663cd8e1e435f5c46e7bb"
+      "computedHash": "35d9eccc09c637565815eda7bb1e06f8d589e3c9a2feec38f4103a47a6c92f3f"
     },
     "ebookfy-12-revisar": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-12-revisar/SKILL.md",
-      "computedHash": "af66af5b6d4c5b9f39431aec67b17089d8b7399a44536c7b37a9ed7a171724b7"
+      "computedHash": "adc909e1b52aae2cd57465a02eebb20f7a60d56d79131870acf03bff2d09ae2d"
     },
     "ebookfy-13-exportar": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-13-exportar/SKILL.md",
-      "computedHash": "24d74c2e4bbe115ea0d320b81d9b0587dd74d3e1ae49a966391d96d992a8308c"
+      "computedHash": "c76d8bb16c9edddcb14fba50cd5ca87d6b7b3651fc3b883aa9b93bc1df7bb4cd"
     },
     "ebookfy-14-distribuir": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-14-distribuir/SKILL.md",
-      "computedHash": "af445ce78145adbcb5cc9a343fce2d67e45a8c26a2283b1dd193fdc7b876bffe"
+      "computedHash": "0ea6e8bbfb9a81864875464404b346c6db914c9e8f5ba1b2e77c7b4f578687ed"
     },
     "ebookfy-15-migrar": {
       "source": "promovaweb/ebookfy",
       "sourceType": "github",
       "skillPath": "skills/ebookfy-15-migrar/SKILL.md",
-      "computedHash": "1355640e1f5fc29fd7bfb58c78849c7f89ceb6253c2200b96a9ffde0e876cbed"
+      "computedHash": "8a8beb01a3cf5e2200e3a7043808cbe2e37fbea0d98acfca52f69915d072d35b"
     }
   }
 }

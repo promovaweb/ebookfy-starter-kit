@@ -36,7 +36,7 @@ Passe para a etapa 03 quando as perguntas de cada capítulo tiverem fonte ou pen
 ## Regras do Ebookfy que afetam esta etapa
 
 - O compilador lê só os arquivos de `[[chapters]]` e de `[files]`, mais as imagens que eles referenciam. `notas/` pode crescer à vontade sem aparecer no livro, desde que nenhum capítulo aponte para um arquivo dali.
-- Uma figura que vai para a página deve morar em `imagens/` do capítulo. O CLI não recusa caminho externo nem endereço `https://` numa imagem, mas o livro deixa de compilar em outra máquina e a imagem remota pode mudar ou sumir.
+- Uma figura que vai para a página deve morar em `imagens/` do capítulo. O `ebookfy build` recusa imagem com caminho fora do livro ou endereço `https://`: baixe o arquivo de apoio para `notas/fontes/` e a figura final para `imagens/`.
 - O livro declara um idioma em `book.language`. Citações em outro idioma entram traduzidas no texto, com o original registrado na ficha.
 
 ## Problemas frequentes

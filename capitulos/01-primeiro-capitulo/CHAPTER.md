@@ -26,6 +26,10 @@ ebookfy info
 
 O terminal mostra o título novo e a lista de capítulos na ordem das tabelas `[[chapters]]`. O comando funciona também de dentro de uma subpasta, porque o Ebookfy procura o `ebook.toml` mais próximo subindo pelas pastas.
 
+Sem argumentos, `ebookfy` abre a interface do terminal com a mesma ficha. A aba **Livro** mostra o sumário ao lado de um menu para a ficha, os capítulos, os arquivos gerados e o guia:
+
+![Aba Livro da interface do terminal, com o menu à esquerda e os sete capítulos deste livro no sumário](imagens/tui-livro.png){width=90%}
+
 ![Livro aberto com marcador de página, o símbolo usado neste exemplo](imagens/livro.png){width=18%}
 
 A figura acima mora em `imagens/`, ao lado deste `CHAPTER.md`. O texto entre colchetes vira a legenda e também é lido por leitores de tela. O atributo `{width=18%}` controla a largura no PDF.

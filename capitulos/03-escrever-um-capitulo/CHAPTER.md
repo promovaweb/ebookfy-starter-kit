@@ -43,7 +43,7 @@ No PDF, uma linha longa quebra sozinha no meio do comando, e quem copia o trecho
 
 ## Notas de rodapé
 
-As notas aparecem numeradas e levam o leitor ao texto da nota e de volta.[^cap03-rotulos] No PDF, todas ficam reunidas no fim do livro. No EPUB, abrem numa janela ou no fim do capítulo, conforme o leitor digital.
+As notas aparecem numeradas no texto.[^cap03-rotulos] No PDF, o texto da nota fica no pé da mesma página, como nesta. No EPUB, a chamada leva ao texto da nota e de volta, e o leitor digital mostra a nota numa janela ou no fim do capítulo.
 
 Os rótulos valem para o livro inteiro, por isso cada capítulo usa o próprio prefixo, como `[^cap03-rotulos]` neste capítulo.
 

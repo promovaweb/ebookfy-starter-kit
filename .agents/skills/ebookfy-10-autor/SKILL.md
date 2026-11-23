@@ -35,7 +35,7 @@ Participações que não são autoria (revisão, capa, ilustração) vão para o
 
 ## Regras do Ebookfy que afetam esta etapa
 
-- O arquivo vem de `files.author` e é a última seção da edição, depois dos créditos. No PDF, as notas de rodapé do livro aparecem depois dela.
+- O arquivo vem de `files.author` e é a última seção da edição, depois dos créditos. As notas de rodapé não entram nela: no PDF, cada nota fica no pé da página da chamada.
 - Precisa existir e começar com um título `#`.
 - `book.authors` alimenta os metadados de autoria do EPUB, do MOBI e do PDF. A grafia no texto e na ficha deve ser a mesma.
 - A capa do PDF não mostra a autoria; quem procura o nome no PDF encontra aqui e nos metadados.

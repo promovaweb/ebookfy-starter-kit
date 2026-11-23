@@ -1,12 +1,43 @@
-![Ícone do Ebookfy](brand/logo/icon-48w.png)
+<p align="center">
+  <a href="https://github.com/promovaweb/ebookfy">
+    <img alt="Ebookfy" src="https://raw.githubusercontent.com/promovaweb/ebookfy-starter-kit/main/brand/logo/icon.png" width="112" height="112">
+  </a>
+</p>
 
-# Ebookfy Starter Kit
+<h1 align="center">Ebookfy Starter Kit</h1>
 
-Use este repositório privado como ponto de partida para o seu livro. Ele traz a ficha, um livro de exemplo com sete capítulos, os textos editoriais e as 15 skills do [Ebookfy](https://github.com/promovaweb/ebookfy) instaladas para o seu agente.
+<p align="center">
+  O ponto de partida do seu livro: ficha, livro de exemplo, textos editoriais e as 15 skills do Ebookfy instaladas para o seu agente.
+</p>
+
+<p align="center">Um projeto da <a href="https://promovaweb.com">Promovaweb</a></p>
+
+<p align="center">
+  <a href="https://github.com/promovaweb/ebookfy-starter-kit/releases/latest"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/promovaweb/ebookfy-starter-kit"></a>
+  <a href="LICENSE"><img alt="Licença" src="https://img.shields.io/github/license/promovaweb/ebookfy-starter-kit"></a>
+</p>
+
+<p align="center">
+  <a href="https://promovaweb.com/discord"><img alt="Discord: obter ajuda e conversar com a Comunidade" src="https://img.shields.io/badge/Discord-Obter%20ajuda%20e%20conversar%20com%20a%20Comunidade-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/promovaweb/ebookfy">Ebookfy</a> ·
+  <a href="https://promovaweb.com/ferramentas/">Ferramentas</a> ·
+  <a href="https://promovaweb.com/docs/">Documentação</a> ·
+  <a href="https://promovaweb.com/harness/">Harness</a> ·
+  <a href="https://promovaweb.com/discord">Discord</a> ·
+  <a href="https://promovaweb.com/planos?utm_source=github&utm_medium=readme&utm_campaign=ebookfy-starter-kit">Planos da Promovaweb</a> ·
+  <a href="CHANGELOG.md">Changelog</a>
+</p>
+
+## O que é
+
+Este repositório é o modelo de livro do [Ebookfy](https://github.com/promovaweb/ebookfy), o CLI da Promovaweb que gera PDF, EPUB e MOBI a partir de capítulos Markdown. Ele traz a ficha `ebook.toml`, um livro de exemplo com sete capítulos, os textos editoriais e as 15 skills do Ebookfy instaladas para Claude Code, Codex e OpenCode.
 
 ## Primeiro uso
 
-O jeito mais rápido é rodar `ebookfy init` num repositório Git vazio: o comando copia este modelo para a pasta. Se você criou a cópia direto pelo GitHub, instale Node.js 22 ou superior, Pandoc, WeasyPrint e Calibre e rode na raiz:
+O jeito mais rápido é rodar `ebookfy init` num repositório Git vazio: o comando copia este modelo para a pasta. Você também pode clicar em **Use this template** no GitHub. Nos dois casos, instale [Node.js](https://github.com/nodejs/node) 22 ou superior, [Pandoc](https://github.com/jgm/pandoc), [WeasyPrint](https://github.com/Kozea/WeasyPrint) e [Calibre](https://github.com/kovidgoyal/calibre) e rode na raiz:
 
 ```bash
 npm install -g @promovaweb/ebookfy
@@ -50,4 +81,34 @@ As skills instaladas ficam em [.agents/skills](.agents/skills). Comece pela `ebo
 
 Para um livro que já existe em outro formato, comece pela `ebookfy-15-migrar`. Para uma tarefa pontual, entre direto na etapa: trocar uma figura começa na `ebookfy-05-imagens`; revisar antes de publicar, na `ebookfy-12-revisar`.
 
-O manual completo do Ebookfy acompanha o [framework](https://github.com/promovaweb/ebookfy). Consulte também o [guia de contribuição](CONTRIBUTING.md), as [versões](CHANGELOG.md) e o [Discord da Promovaweb](https://promovaweb.com/discord).
+O manual completo acompanha o [Ebookfy](https://github.com/promovaweb/ebookfy), com a referência do CLI e as edições em PDF, EPUB e MOBI.
+
+## Feito com
+
+| Projeto | Para quê |
+| --- | --- |
+| [Ebookfy](https://github.com/promovaweb/ebookfy) | CLI que compila o livro e fonte das skills |
+| [Pandoc](https://github.com/jgm/pandoc) | conversão para HTML e EPUB |
+| [WeasyPrint](https://github.com/Kozea/WeasyPrint) | PDF |
+| [Calibre](https://github.com/kovidgoyal/calibre) | MOBI |
+| [skills](https://github.com/vercel-labs/skills) | instalação e atualização das skills nos agentes |
+
+## Comunidade e suporte
+
+- **Discord:** [obter ajuda e conversar com a Comunidade](https://promovaweb.com/discord).
+- **Bugs e pedidos:** abra uma [issue](https://github.com/promovaweb/ebookfy-starter-kit/issues) com a versão, o sistema operacional e o passo a passo para reproduzir. Problemas do CLI vão para as [issues do Ebookfy](https://github.com/promovaweb/ebookfy/issues).
+- **Novidades:** acompanhe o [CHANGELOG](CHANGELOG.md) e as [releases](https://github.com/promovaweb/ebookfy-starter-kit/releases).
+
+## Contribuir
+
+Leia o [guia de contribuição](CONTRIBUTING.md). O livro de exemplo e as skills nascem no [Ebookfy](https://github.com/promovaweb/ebookfy) e são copiados para cá.
+
+## Promovaweb
+
+O Ebookfy Starter Kit é mantido pela [Promovaweb](https://promovaweb.com), comunidade de co-working digital onde profissionais aprendem a construir, automatizar e gerir negócios de tecnologia e IA com aulas ao vivo, Co-works e revisão de projetos reais.
+
+Quer escrever e publicar o seu livro com acompanhamento? Conheça os [planos da Promovaweb](https://promovaweb.com/planos?utm_source=github&utm_medium=readme&utm_campaign=ebookfy-starter-kit).
+
+## Licença
+
+Distribuído sob a [licença MIT](LICENSE), porque o starter kit é a base do livro de quem usa: o livro que você escreve a partir dele é seu e pode ter a licença ou os direitos autorais que você escolher. O [Ebookfy](https://github.com/promovaweb/ebookfy), com o CLI e as skills, segue sob a GNU AGPL 3.0. A licença não concede o uso do nome e do logo do Ebookfy nem da marca Promovaweb.

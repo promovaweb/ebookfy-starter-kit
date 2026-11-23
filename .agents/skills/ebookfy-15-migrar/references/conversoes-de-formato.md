@@ -4,7 +4,7 @@
 
 | Na origem | No Ebookfy | Como |
 | --- | --- | --- |
-| Frontmatter YAML (`title`, `author`, `date`, `lang`) | Campos de `[book]` | `title` vai para `book.title`, `author` para `book.authors` (sempre lista, mesmo com uma pessoa), `date` para `book.date` em `AAAA-MM-DD` e `lang` para `book.language`. Copiar as chaves com o nome original dá `Unrecognized key`. Depois, remova o bloco `---` de cada arquivo. |
+| Frontmatter YAML (`title`, `author`, `date`, `lang`) | Campos de `[book]` | `title` vai para `book.title`, `author` para `book.authors` (sempre lista, mesmo com uma pessoa), `date` para `book.date` em `AAAA-MM-DD` e `lang` para `book.language`. Copiar as chaves com o nome original dá `A tabela [book] não aceita a chave "author"`. Depois, remova o bloco `---` de cada arquivo. |
 | `reading-order.txt`, `SUMMARY.md` | Tabelas `[[chapters]]` na mesma ordem | Uma tabela por capítulo. |
 | Manuscrito único | Um `CHAPTER.md` por título `#` | Divida nos títulos de primeiro nível, conferindo o mapa. |
 | Seções `##` tratadas como capítulos | Seções dentro de um capítulo | Junte no capítulo a que pertencem. |

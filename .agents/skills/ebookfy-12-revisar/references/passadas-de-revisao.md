@@ -72,7 +72,7 @@ Abra os arquivos recém-gerados e leia:
 
 - o sumário, conferindo títulos e ordem;
 - um capítulo com figura, tabela e bloco de código;
-- uma nota de rodapé: abra a nota e volte pelo recurso que o leitor oferece (no PDF, as notas ficam no fim do documento);
+- uma nota de rodapé: abra a nota e volte pelo recurso que o leitor oferece (no PDF, confira o texto no pé da página da chamada);
 - um link interno entre capítulos;
 - os créditos e a autoria.
 

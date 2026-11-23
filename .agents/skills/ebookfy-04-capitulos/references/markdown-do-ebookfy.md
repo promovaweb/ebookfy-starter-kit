@@ -111,6 +111,6 @@ O bloco vira uma `div` com a classe no PDF e no EPUB. O kit de impressão não d
 ## O que evitar
 
 - HTML embutido: funciona no PDF e no EPUB, mas costuma quebrar no MOBI.
-- Imagens remotas (`https://...png`): o Pandoc baixa a imagem a cada build. Sem rede, o build falha; se o endereço mudar, a figura muda ou some.
+- Imagens remotas (`https://...png`) ou fora da pasta do livro (`../../outro/a.png`): o `ebookfy build` recusa antes de compilar e lista arquivo e linha. Baixe a imagem para `imagens/`.
 - Emojis como marcadores de seção: nem todas as fontes do PDF têm os glifos.
 - Títulos com formatação (`## Usar o **Set**`): o sumário mostra os símbolos em alguns leitores.

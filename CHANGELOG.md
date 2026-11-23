@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0
+
+- O modelo passa a ser público, sob a licença MIT: o livro criado a partir dele pertence a quem o escreve. As skills instaladas seguem a GNU AGPL 3.0 do Ebookfy.
+- README no padrão dos projetos open source da Promovaweb, com o caminho pelo botão **Use this template** do GitHub.
+- Livro de exemplo do Ebookfy 0.6.0: captura da TUI no primeiro capítulo, notas de rodapé no pé da página do PDF e o build reproduzível explicado no último capítulo.
+
 ## 0.3.1
 
 - O livro de exemplo virou um guia completo em sete capítulos, o mesmo do Ebookfy 0.5.1, com figuras da própria edição e textos editoriais reescritos.

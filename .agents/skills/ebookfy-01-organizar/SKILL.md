@@ -48,8 +48,8 @@ Passe para a etapa 02 quando a ficha estiver válida e o briefing registrar as p
 | --- | --- | --- |
 | `Nenhum ebook.toml foi encontrado` | O terminal está fora da pasta do livro ou a ficha está em outro repositório. | Entre na pasta do livro ou em uma subpasta dele. |
 | `info` mostra outro título | Há um `ebook.toml` numa pasta intermediária. | Rode `ebookfy info --json`, veja qual livro abriu e remova ou mova a ficha extra. |
-| Erro em JSON com `unrecognized_keys` e `Unrecognized key: "..."` | Campo inexistente ou com erro de digitação. | Compare com a tabela de campos do [Mapa do projeto](references/mapa-do-projeto.md). |
-| Erro em JSON com `invalid_type` e um `path` como `book.authors` | Campo obrigatório ausente ou com tipo errado (texto no lugar de lista). | Preencha o campo indicado em `path` no formato da tabela. |
+| `A tabela [book] não aceita a chave "..."` | Campo inexistente ou com erro de digitação. | Compare com a tabela de campos do [Mapa do projeto](references/mapa-do-projeto.md). |
+| "Falta `book.authors`" ou "`book.authors` precisa ser uma lista entre colchetes" | Campo obrigatório ausente ou com tipo errado (texto no lugar de lista). | Preencha o campo citado no formato da tabela. |
 | Erro em JSON com `invalid_format` ou `too_small` | Data, versão ou slug fora do formato, ou lista vazia. | Corrija para `AAAA-MM-DD`, `X.Y.Z`, minúsculas com hífen, ou acrescente um item. |
 | `Cada capítulo precisa de CHAPTER.md` | Arquivo com outro nome ou caixa diferente. | Renomeie para `CHAPTER.md` e ajuste a tabela. |
 | `Inclua um título de nível 1` | O arquivo não tem nenhum título `#`, ou o único `#` está dentro de um bloco de código. | Abra o arquivo com uma linha `# Título`. Texto antes do título é aceito pelo CLI, mas a convenção é começar pelo título. |

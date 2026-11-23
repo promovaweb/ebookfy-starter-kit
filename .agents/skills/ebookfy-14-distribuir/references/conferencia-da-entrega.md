@@ -4,7 +4,7 @@
 
 ## Relacionar os exemplares
 
-Na raiz do livro, a partir do `notas/build.json` gravado na etapa 13. Não recompile aqui: um build novo gera exemplares com hashes diferentes dos conferidos.
+Na raiz do livro, a partir do `notas/build.json` gravado na etapa 13. Não recompile aqui: o MOBI sai com hash novo a cada build, e o PDF e o EPUB mudam quando a versão de um conversor muda.
 
 ```bash
 jq -r '.data.arquivos[]' notas/build.json | while read -r f; do

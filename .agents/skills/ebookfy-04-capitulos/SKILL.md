@@ -46,7 +46,7 @@ Volte à etapa 02 se uma afirmação necessária não tiver fonte. Volte à etap
 - O título do capítulo é o primeiro `#` do arquivo. Um segundo `#` cria outra entrada de primeiro nível no sumário.
 - Não use frontmatter YAML. O compilador não lê o bloco como metadado: as linhas entre `---` são interpretadas como Markdown comum e podem aparecer como texto, linha horizontal ou até tabela, inclusive no fim da seção anterior.
 - Caminhos de imagens são relativos ao próprio `CHAPTER.md`: `![...](imagens/arquivo.png)`.
-- Imagem ausente ou caminho errado derruba o build, porque o compilador falha em qualquer aviso do Pandoc. O CLI não recusa imagem com caminho fora do livro; guarde todas em `imagens/` do capítulo para o livro compilar em qualquer máquina.
+- Imagem ausente ou caminho errado derruba o build, porque o compilador falha em qualquer aviso do Pandoc. O build também recusa imagem com caminho fora do livro ou endereço remoto; guarde todas em `imagens/` do capítulo.
 - Link para outro arquivo (`../02-x/CHAPTER.md`) compila, mas fica quebrado no EPUB e no PDF. Entre capítulos, use a âncora do título: `[Agendar a execução](#agendar-a-execução)`, ou defina um id explícito com `{#agendar}`.
 - O livro inteiro é compilado como um documento só. Títulos iguais em capítulos diferentes recebem sufixo (`exemplo`, `exemplo-1`), e um link para `#exemplo` leva sempre ao primeiro. Seções que recebem link precisam de id explícito.
 - Rótulos de nota de rodapé também valem para o livro inteiro. Duas definições `[^1]:` em capítulos diferentes derrubam o build com `Duplicate note reference`. Prefixe com o capítulo: `[^cap03-limite]`.

@@ -7,7 +7,7 @@ O `ebookfy build` valida a ficha antes de chamar qualquer conversor. Erros de fi
 | Mensagem | Causa | Correção |
 | --- | --- | --- |
 | `Nenhum ebook.toml foi encontrado` | Fora da pasta do livro. | Entre na pasta do livro ou numa subpasta. |
-| Lista JSON com `code` e `path` (`unrecognized_keys`, `invalid_type`, `invalid_format`, `too_small`) | Campo desconhecido, ausente, com formato errado ou lista vazia. O `path` indica a tabela ou o campo; em `unrecognized_keys`, `keys` traz os nomes rejeitados. | Compare com a tabela de campos da etapa 01. |
+| `A ficha ebook.toml tem N problemas:` seguido de uma linha por campo (exit code 3, `CONFIG`) | Campo desconhecido, ausente, com formato errado ou lista vazia. Cada linha cita o campo, como `book.version`. Em `--json`, `error.details.problemas` traz `campo`, `mensagem` e `codigo` de cada um. | Compare com a tabela de campos da etapa 01. |
 | `Cada seção e formato deve aparecer uma vez.` | Arquivo repetido entre `[files]` e `[[chapters]]` ou formato repetido. | Remova a repetição. |
 | `Cada capítulo precisa de CHAPTER.md.` | Tabela apontando para outro nome de arquivo. | Renomeie o arquivo e a tabela. |
 | `Esperado arquivo: ...` | O caminho aponta para uma pasta. | Aponte para o arquivo. |

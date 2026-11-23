@@ -18,7 +18,7 @@ Passe para a etapa 14 com os exemplares conferidos. Volte à etapa de origem qua
 
 ## Antes de começar
 
-1. Rode `ebookfy doctor` e confira os conversores: `pandoc` é necessário para tudo, `weasyprint` para PDF e `ebook-convert` (Calibre) para MOBI. O doctor avisa quais formatos de `output.formats` ficam indisponíveis.
+1. Rode `ebookfy doctor` e confira os conversores: `pandoc` é necessário para tudo, `weasyprint` para PDF e `ebook-convert` (Calibre) para MOBI. O doctor avisa quais formatos de `output.formats` ficam indisponíveis e mostra se o `epubcheck`, validador opcional do EPUB, está instalado. Com ele, rode `epubcheck` no EPUB gerado antes da prova visual.
 2. Rode `ebookfy info --json` e confira título, versão, formatos e a ordem dos capítulos.
 3. Confira `book.version` e `book.date`: os dois aparecem na capa do PDF, e a versão entra no nome dos arquivos.
 
@@ -44,7 +44,7 @@ Passe para a etapa 14 com os exemplares conferidos. Volte à etapa de origem qua
 ## Regras do Ebookfy que afetam esta etapa
 
 - `output.directory` precisa ficar dentro da pasta do livro e não pode ser alcançada por link simbólico.
-- Cada build grava datas internas nos arquivos, então duas compilações das mesmas fontes geram exemplares com hashes diferentes. Não recompile entre a prova e a distribuição; se recompilar, refaça a prova e o `notas/build.json`.
+- O build usa `book.date` como data interna. Com as mesmas fontes e as mesmas versões do Pandoc e do WeasyPrint, PDF e EPUB saem idênticos; o MOBI muda a cada build, porque o Calibre grava horários e um identificador próprios. Mesmo assim, não recompile entre a prova e a distribuição; se recompilar, refaça a prova e o `notas/build.json`.
 - Compilar a mesma versão de novo sobrescreve os arquivos dela. Para preservar uma edição distribuída, aumente `book.version` antes de compilar a próxima.
 - `ebookfy build` sem `--json` imprime os caminhos gerados, um por linha.
 

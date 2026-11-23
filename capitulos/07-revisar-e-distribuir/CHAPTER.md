@@ -23,7 +23,7 @@ A versão da edição fica em `book.version` e aparece no nome dos arquivos e na
 | Seção ou capítulo novo | `0.1.1` para `0.2.0` |
 | Livro reescrito ou reorganizado | `0.2.0` para `1.0.0` |
 
-Atualize também `book.date` com a data da edição. Cada build grava a data da compilação dentro dos arquivos, por isso dois builds da mesma versão geram arquivos com bytes diferentes.
+Atualize também `book.date` com a data da edição. O compilador grava essa data dentro dos arquivos, e dois builds das mesmas fontes geram PDF e EPUB idênticos. O MOBI é a exceção: o Calibre grava nele o horário da conversão.
 
 ## Entregar os arquivos conferidos
 

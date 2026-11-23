@@ -11,7 +11,7 @@
 | Figura | Nítida em 100%, legenda embaixo. | Inteira com a fonte ampliada. | Visível; capturas pequenas continuam legíveis. |
 | Tabela | Cabe na largura da página. | Não corta com a fonte ampliada. | Tabelas largas podem quebrar; confira a maior do livro. |
 | Código | Realce, sem linhas cortadas na margem. | Quebra ou rolagem legível. | Fonte monoespaçada; linhas longas quebram. |
-| Nota de rodapé | Numerada; o texto das notas fica no fim do documento, depois da autoria. | A nota abre; o retorno depende do recurso do leitor. | A nota abre; o retorno depende do aparelho. |
+| Nota de rodapé | Numerada; o texto aparece no pé da página da chamada. | A nota abre; o retorno depende do recurso do leitor. | A nota abre; o retorno depende do aparelho. |
 | Link interno | Leva à seção certa. | Leva à seção certa. | Leva à seção certa. |
 | Acentos e símbolos | ç, ã, é, aspas e travessões corretos. | Idem. | Idem. |
 | Rodapé | Título e numeração a partir da segunda página. | Não se aplica. | Não se aplica. |

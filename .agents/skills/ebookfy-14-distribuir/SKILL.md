@@ -23,7 +23,7 @@ Envio para um destino só acontece com autorização expressa da pessoa respons�
 
 ## Procedimento
 
-1. **Parta da lista do build conferido.** Use `notas/build.json`, gravado na etapa 13 com a saída do build que passou pela prova. Não recompile: cada build gera arquivos com bytes diferentes, e os exemplares deixariam de ser os conferidos. Não pegue arquivos soltos da pasta de saída: ela pode ter edições anteriores.
+1. **Parta da lista do build conferido.** Use `notas/build.json`, gravado na etapa 13 com a saída do build que passou pela prova. Não recompile: o MOBI muda a cada build, e uma troca de versão do Pandoc ou do WeasyPrint também muda o PDF e o EPUB; os exemplares deixariam de ser os conferidos. Não pegue arquivos soltos da pasta de saída: ela pode ter edições anteriores.
 2. **Relacione os exemplares** no formato da [conferência da entrega](references/conferencia-da-entrega.md): formato, caminho, tamanho e SHA-256.
 3. **Confira a identificação.** Versão no nome do arquivo e na capa do PDF. No EPUB, título, identificador, direitos e data nos metadados; a versão só aparece se a arte da capa digital a mostrar. `book.rights` adequado ao canal (público, alunos, clientes).
 4. **Envie, se autorizado.** Transfira os arquivos ao destino. Mantenha o nome `<slug>-v<version>.<formato>`, que deixa a versão visível para o leitor.

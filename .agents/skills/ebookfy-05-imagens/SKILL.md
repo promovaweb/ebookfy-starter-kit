@@ -38,7 +38,7 @@ Passe para a etapa 09 com a origem de toda figura que não foi produzida pela eq
 ## Regras do Ebookfy que afetam esta etapa
 
 - O caminho é relativo ao `CHAPTER.md`: `![Legenda](imagens/arquivo.png)`.
-- Guarde a imagem em `imagens/` do capítulo. O CLI não recusa caminho para fora do livro nem endereço `https://`: o Pandoc incorpora o arquivo externo ou baixa a imagem durante o build. Mesmo assim, o livro deixa de compilar em outra máquina ou sem rede, e a imagem remota pode mudar.
+- Guarde a imagem em `imagens/` do capítulo. O `ebookfy build` recusa caminho para fora do livro e endereço `https://` antes de chamar o Pandoc, com exit code 3 e uma linha por imagem (`capitulos/02-x/CHAPTER.md:14 usa https://... (endereço remoto)`). Baixe a imagem, registre a origem e use o caminho relativo.
 - Imagem ausente, nome com caixa diferente ou extensão errada fazem o build falhar com `Could not fetch resource`. Em Linux, `Figura.PNG` e `figura.png` são arquivos diferentes.
 - Uma imagem sozinha no parágrafo vira figura com legenda. O texto entre colchetes aparece embaixo da imagem e também serve de texto alternativo.
 - Uma imagem dentro de uma frase fica inline, sem legenda.

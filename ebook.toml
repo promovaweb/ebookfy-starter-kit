@@ -1,0 +1,25 @@
+[book]
+title = "Meu primeiro ebook"
+description = "Um projeto editável para montar e exportar a primeira edição."
+language = "pt-BR"
+authors = ["Promovaweb"]
+publisher = "Promovaweb"
+rights = "© Promovaweb"
+identifier = "urn:promovaweb:primeiro-ebook"
+version = "0.1.0"
+date = "2026-11-23"
+slug = "primeiro-ebook"
+
+[files]
+cover = "editorial/capa.png"
+logo = "brand/logo/icon.png"
+preface = "editorial/prefacio.md"
+credits = "editorial/creditos.md"
+author = "editorial/autor.md"
+
+[output]
+directory = "ebook"
+formats = ["pdf", "epub", "mobi"]
+
+[[chapters]]
+file = "capitulos/01-primeiro-capitulo/CHAPTER.md"
